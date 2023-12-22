@@ -1,0 +1,29 @@
+POST https://cdv-funktion.azurewebsites.net/api/PeopleFn?code=YFWceEDkZxW5MXzIzSAsizKAa9VMHQUsfZSTlu2Vix6jAzFuOBZTbQ== HTTP/1.1
+content-type: application/json
+
+{
+    "FirstName": "Roman",
+    "LastName": "Winny"
+}
+
+GET https://cdv-funktion.azurewebsites.net/api/PeopleFn?code=YFWceEDkZxW5MXzIzSAsizKAa9VMHQUsfZSTlu2Vix6jAzFuOBZTbQ== HTTP/1.1
+content-type: application/json
+
+{
+}
+
+PUT https://cdv-funktion.azurewebsites.net/api/PeopleFn?code=YFWceEDkZxW5MXzIzSAsizKAa9VMHQUsfZSTlu2Vix6jAzFuOBZTbQ== HTTP/1.1
+content-type: application/json
+
+{
+    "Id": 5,
+    "FirstName": "Update",
+    "LastName": "Update"
+}
+
+DELETE https://cdv-funktion.azurewebsites.net/api/PeopleFn?code=YFWceEDkZxW5MXzIzSAsizKAa9VMHQUsfZSTlu2Vix6jAzFuOBZTbQ== HTTP/1.1
+content-type: application/json
+
+{
+    "Id": 3
+}
